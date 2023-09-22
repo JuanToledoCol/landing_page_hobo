@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/03620f6896.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Hobo-Comercio</title>
+</head>
+
+<body>
+    <!-- Start Main -->
+    <div class="container-fluid bg-1">
+        <div class="back">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text" style="height: 80vh;">
+                <h1 class="text-white fw-bold">Comercio Hobeño</h1>
+                <p class="text-white">¡Conoce todo lo que tenemos para ofrecer!</p>
+                <i class="fa-solid fa-arrow-down-long arrow text-white"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Main -->
+
+    <!-- Start Text 1 -->
+    <div class="container-fluid bg-2 d-flex justify-content-center align-items-center p-4">
+        <h1 class="">Los mejores productos, desde él <i class="fa-solid fa-heart"></i> del Huila.</h1>
+    </div>
+    <!-- End Text 1 -->
+
+    <!-- Start Menú -->
+    <div class="container-fluid bg-3" id="menu">
+        <div class="back2">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text">
+                <h1 class="text-white">Categorias</h1>
+                <p class="text-white">Pensando en tus necesidades.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 16rem;">
+                        <img src="./assets/images/bg_restaurant.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-utensils"></i> Restaurantes</h5>
+                            <a href="#restaurant" class="btn btn-success">Ir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 16rem;">
+                        <img src="./assets/images/bg_heladeria.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-ice-cream"></i> Heladerías</h5>
+                            <a href="#iceCream" class="btn btn-success">Ir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 16rem;">
+                        <img src="./assets/images/bg_ropa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-shirt"></i> Tiendas de Ropa</h5>
+                            <a href="#clothes" class="btn btn-success">Ir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 16rem;">
+                        <img src="./assets/images/bg_cafetería.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-mug-hot"></i> Cafetería</h5>
+                            <a href="#coffe" class="btn btn-success">Ir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Menú -->
+
+    <!-- Start text 2 -->
+    <div class="container-fluid bg-2 d-flex justify-content-center align-items-center p-4">
+        <h1 class="">Un paraíso que debes conocer.</h1>
+    </div>
+    <!-- End text 2 -->
+
+    <!-- Start restaurant -->
+    <div class="container-fluid bg-4" id="restaurant">
+        <div class="back2">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text">
+                <h2 class="text-white"><i class="fa-solid fa-utensils"></i> Restaurantes</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">La Torre</h5>
+                        </div>
+                        <img src="./assets/images/LaTorre1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalLaTorre">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalLaTorre" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">La Torre</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselLaTorreAutoplaying" class="carousel slide"
+                                                data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/LaTorre1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/LaTorre2.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/LaTorre3.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselLaTorreAutoplaying" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselLaTorreAutoplaying" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="r-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#r-1" aria-expanded="false"
+                                                            aria-controls="r-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="r-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#r-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>La Torre </strong>es un restaurante que ofrece una
+                                                            amplia variedad de
+                                                            opciones de comida, desde platos a la carta hasta comidas
+                                                            rápidas y deliciosos helados. ¡Tenemos una variedad de
+                                                            opciones para satisfacer todos los paladares!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#r-5" aria-expanded="false"
+                                                            aria-controls="r-5">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="r-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#r-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Almuerzos: </strong>Pechuga, carne asada, sobre
+                                                            barriga asada o sudada, sopa de pasta o sancocho, ajiaco,
+                                                            mora, lulo o maracuyá o limonada.
+                                                            <br>
+                                                            <strong>Especiales: </strong>Mojarra frita, pechuga
+                                                            gratinada, lomo de cerdo.
+                                                            <br>
+                                                            <strong>Comida Rápida: </strong>Hamburgesas.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#r-2" aria-expanded="false"
+                                                            aria-controls="r-2">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="r-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#r-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 6:00 am a 10:00 pm.</strong>
+                                                            <br>
+                                                            <i class="fa-solid fa-motorcycle"></i>
+                                                            Contamos con servicio de <strong>Domicilio.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#r-3" aria-expanded="false"
+                                                            aria-controls="r-3">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="r-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#r-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Carrera 8 N 5-23 - Enseguida de la capilla.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#r-4" aria-expanded="false"
+                                                            aria-controls="r-4">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="r-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#r-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3107511284
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">El Palacio del Arroz</h5>
+                        </div>
+                        <img src="./assets/images/PalacioArroz3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalPA">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalPA" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">El Palacio del Arroz
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselPalacio" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/PalacioArroz1.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/PalacioArroz3.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/PalacioArroz4.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselPalacio" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselPalacio" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="p-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#p-1" aria-expanded="false"
+                                                            aria-controls="p-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="p-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#p-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>En nuestro restaurante, </strong> te ofrecemos una
+                                                            deliciosa selección de arroz mixto, arroz paisa y arroz
+                                                            ranchero. Disfruta de sabores auténticos y texturas
+                                                            irresistibles en cada bocado. ¡Ven y prueba nuestras
+                                                            opciones de arroz hoy mismo!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#p-2" aria-expanded="false"
+                                                            aria-controls="p-2">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="p-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#p-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Arroz mixto, Arroz paisa y Arroz Ranchero.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#p-3" aria-expanded="false"
+                                                            aria-controls="p-3">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="p-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#p-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Fines de semana :</strong> 10:00 am a 8:00 pm.
+                                                            <br>
+                                                            <strong>Lunes, Martes y Miércoles:</strong> 10:00 am a 3:00
+                                                            pm.
+                                                            <br>
+                                                            <strong>Viernes:</strong> 10:00am a 6:00pm.
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#p-4" aria-expanded="false"
+                                                            aria-controls="p-4">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="p-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#p-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 5 N 7-70.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#p-5" aria-expanded="false"
+                                                            aria-controls="p-5">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="p-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#p-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3107511284
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">La Moya</h5>
+                        </div>
+                        <img src="./assets/images/Moya3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalMoya">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalMoya" tabindex="-1" aria-labelledby="modalLaMoya"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">La Moya</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselLaMoya" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Moya1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Moya2.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Moya3.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselLaMoya" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselLaMoya" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="m-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#m-1" aria-expanded="false"
+                                                            aria-controls="m-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="m-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#m-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>La Moya </strong>es un restaurante único que combina
+                                                            deliciosa cocina tradicional con un relajante servicio de
+                                                            piscina. Además de disfrutar de los sabores auténticos en su
+                                                            restaurante, los clientes pueden relajarse y refrescarse en
+                                                            la piscina, creando una experiencia gastronómica única y
+                                                            refrescante.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#m-2" aria-expanded="false"
+                                                            aria-controls="m-2">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="m-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#m-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Almuerzos: </strong>Pechuga, spaghetti, albóndigas,
+                                                            sopa de cuchuco, sopa de pasta, limonada, jugo de Cholupa o
+                                                            de lulo, carne asada o sudada.
+                                                            <br>
+                                                            <strong>Especiales: </strong>Arroz con pollo, Pechuga
+                                                            gratinada, bandeja paisa.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#m-3" aria-expanded="false"
+                                                            aria-controls="m-3">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="m-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#m-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 9:00 am a 6:00 pm.</strong>
+                                                            <br>
+                                                            <i class="fa-solid fa-motorcycle"></i>
+                                                            Contamos con servicio de <strong>Domicilio.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#m-4" aria-expanded="false"
+                                                            aria-controls="m-4">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="m-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#m-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 4 N 2-03.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#m-5" aria-expanded="false"
+                                                            aria-controls="m-5">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="m-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#m-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3105897442
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Shen Ghan</h5>
+                        </div>
+                        <img src="./assets/images/Shen-Ghan 3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalShen">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalShen" tabindex="-1" aria-labelledby="modalLaMoya"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Shen Ghan</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselShen" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Shen-Ghan 1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Shen-Ghan 2.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Shen-Ghan 3.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselShen" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselShen" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="s-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#s-1" aria-expanded="false"
+                                                            aria-controls="s-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="s-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#s-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Shen Ghan </strong>es un restaurante chino que
+                                                            ofrece una amplia selección de platos auténticos a la carta.
+                                                            Los clientes pueden disfrutar de una variedad de sabores y
+                                                            opciones, desde platos clásicos hasta creaciones únicas que
+                                                            satisfacen todos los antojos culinarios.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#s-2" aria-expanded="false"
+                                                            aria-controls="s-2">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="s-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#s-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Arroz chino y almuerzos corrientes y platos a la carta.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#s-3" aria-expanded="false"
+                                                            aria-controls="s-3">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="s-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#s-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 11:00 am a 8:00 pm.</strong>
+                                                            <br>
+                                                            <i class="fa-solid fa-motorcycle"></i>
+                                                            Contamos con servicio de <strong>Domicilio.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#s-4" aria-expanded="false"
+                                                            aria-controls="s-4">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="s-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#s-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 6 N 7-15.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#s-5" aria-expanded="false"
+                                                            aria-controls="s-5">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="s-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#s-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3217551997-3103447947
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End restaurant -->
+
+    <!-- Start text 3 -->
+    <div class="container-fluid bg-2 d-flex justify-content-center align-items-center p-4">
+        <h1 class="">Endulzando tus días.</h1>
+    </div>
+    <!-- End text 3 -->
+
+    <!-- Start Ice cream shop -->
+    <div class="container-fluid bg-5" id="iceCream">
+        <div class="back2">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text">
+                <h2 class="text-white"><i class="fa-solid fa-ice-cream"></i> Heladerías</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Heladería frutos del Bosque</h5>
+                        </div>
+                        <img src="./assets/images/Frutosdelbosque2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalhfrutos">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalhfrutos" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Heladería frutos del
+                                                Bosqu</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselhFrutos" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Frutosdelbosque1.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Frutosdelbosque2.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Frutosdelbosque3.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselhFrutos" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselhFrutos" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="fb-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-1" aria-expanded="false"
+                                                            aria-controls="fb-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#fb-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            La Heladeria<strong>"Frutos del Bosque" </strong>ofrece una
+                                                            amplia variedad de deliciosos postres como Brownie con
+                                                            helado, Ensalada de fruta, Banana split, Fresas con crema,
+                                                            Helados infantiles y pinchos de fruta con chocolate. También
+                                                            tienen granizados, comidas rápidas, jugos naturales. ¡Ven y
+                                                            disfruta de una experiencia gastronómica increíblemente
+                                                            sabrosa en nuestra heladería!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-5" aria-expanded="false"
+                                                            aria-controls="fb-5">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#fb-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Brownie con helado, Ensalada de fruta, Banana split, Fresas
+                                                            con crema, Helados infantiles, pinchos de fruta con
+                                                            chocolate,granizados, comidas rápidas, jugos naturales,
+                                                            gaseosas, malteadas, copa de helado, etc.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-2" aria-expanded="false"
+                                                            aria-controls="fb-2">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#fb-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Martes a Domingo de 9:00 am a 10:00 pm.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-3" aria-expanded="false"
+                                                            aria-controls="fb-3">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#fb-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Carrera 8 N 5-18.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-4" aria-expanded="false"
+                                                            aria-controls="fb-4">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#fb-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3209850431
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Heladería la Chicharra</h5>
+                        </div>
+                        <img src="./assets/images/Chicharra3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalC">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalC" tabindex="-1" aria-labelledby="modalheladeriaChicharra"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Heladeria la Chicharra
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselChicharra" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Chicharra1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Chicharra2.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Chicharra3.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselChicharra" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselChicharra" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="ch-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ch-1" aria-expanded="false"
+                                                            aria-controls="ch-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ch-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ch-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            La heladería ofrece una variedad de opciones deliciosas como
+                                                            conos desde 2800, canasta de helado, banana split, ensalada
+                                                            de fruta, picadas, hamburguesas, salchipapas, gaseosas,
+                                                            jugos naturales, mecato, cerveza, malteadas y mucho más. ¡No
+                                                            te lo puedes perder!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ch-2" aria-expanded="false"
+                                                            aria-controls="ch-2">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ch-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ch-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Helados: </strong>Conos desde 2800,canasta de
+                                                            helado, banana split, ensalada de fruta.
+                                                            <br>
+                                                            <strong>Comida rápida: </strong>Picadas, hamburguesas,
+                                                            salchipapas.
+                                                            <br>
+                                                            <strong>Bebidas: </strong>Gaseosas, jugos naturales,
+                                                            cerveza, malteadas, entre otros.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ch-3" aria-expanded="false"
+                                                            aria-controls="ch-3">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ch-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ch-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Lunes a Domingo</strong> 04:00 pm a 10:00 pm.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ch-4" aria-expanded="false"
+                                                            aria-controls="ch-4">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ch-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ch-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 5 N 7-69.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ch-5" aria-expanded="false"
+                                                            aria-controls="ch-5">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ch-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ch-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3118549914
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Ice cream shop -->
+
+    <!-- Start text 4 -->
+    <div class="container-fluid bg-2 d-flex justify-content-center align-items-center p-4">
+        <h1 class="">Viste con clase. <i class="fa-solid fa-user-tie"></i></h1>
+    </div>
+    <!-- End text 4 -->
+
+    <!-- Start Clothes shop -->
+    <div class="container-fluid bg-6" id="clothes">
+        <div class="back2">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text">
+                <h2 class="text-white"><i class="fa-solid fa-shirt"></i> Tiendas de ropa</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Variedades de Perdomo</h5>
+                        </div>
+                        <img src="./assets/images/Variedadesperdomo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalPerdomo">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalPerdomo" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Variedades Perdomo</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselPerdomo" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Variedadesperdomo.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselPerdomo" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselPerdomo" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="per-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#per-1" aria-expanded="false"
+                                                            aria-controls="per-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="per-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#per-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>¡Bienvenidos a nuestra tienda de ropa! </strong>Aquí
+                                                            encontrarás una amplia selección de prendas de moda para
+                                                            dama, caballero y niños, así como calzado para complementar
+                                                            tu estilo. ¡Descubre las últimas tendencias y viste a toda
+                                                            tu familia con estilo y calidad!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#per-5" aria-expanded="false"
+                                                            aria-controls="per-5">
+                                                            <i class="fa-solid fa-bars m-1"></i> Productos
+                                                        </button>
+                                                    </h2>
+                                                    <div id="per-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#per-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Ropa para dama, caballero, niños y calzado.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#per-2" aria-expanded="false"
+                                                            aria-controls="per-2">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="per-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#per-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 8:00 am a 9:00 pm.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#per-3" aria-expanded="false"
+                                                            aria-controls="per-3">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="per-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#per-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 5 N 7-71 - Centro.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#per-4" aria-expanded="false"
+                                                            aria-controls="per-4">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="per-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#per-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3202514090
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Children's /EEE</h5>
+                        </div>
+                        <img src="./assets/images/ChildrensEEE.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalCe">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalCe" tabindex="-1" aria-labelledby="modalCe"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Children's /EEE
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselCe" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/ChildrensEEE.jpg"
+                                                            class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselCe" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselCe" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="ce-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ce-1" aria-expanded="false"
+                                                            aria-controls="ce-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ce-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ce-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Childrens’s </strong>es un almacén de ropa para bebé
+                                                            que se destaca por su amplia variedad de prendas y
+                                                            accesorios para los más pequeños. Ofrece desde conjuntos y
+                                                            vestidos hasta pijamas y ropa de abrigo, todo cuidadosamente
+                                                            seleccionado para brindar comodidad y estilo, asegurando que
+                                                            los padres encuentren lo que necesitan para vestir a sus
+                                                            bebés con calidad y encanto.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ce-2" aria-expanded="false"
+                                                            aria-controls="ce-2">
+                                                            <i class="fa-solid fa-bars m-1"></i> Producto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ce-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ce-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Todo lo que necesites para tu bebé.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ce-3" aria-expanded="false"
+                                                            aria-controls="ce-3">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ce-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ce-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Lunes a Domingo</strong> 08:00 am a 08:00 pm.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ce-4" aria-expanded="false"
+                                                            aria-controls="ce-4">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ce-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ce-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 5 N 6-63.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#ce-5" aria-expanded="false"
+                                                            aria-controls="ce-5">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ce-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#ce-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3138186412
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Variedades Norelly</h5>
+                        </div>
+                        <img src="./assets/images/Norelly2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalvn">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalvn" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Variedades Norelly</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselvn" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/Norelly1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="3000">
+                                                        <img src="./assets/images/Norelly2.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselvn" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselvn" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="vn-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-1" aria-expanded="false"
+                                                            aria-controls="fb-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#vn-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>¡Variedades Norelly es un almacén de moda y estilo!
+                                                            </strong>Aquí encontrarás todo lo que necesitas para lucir a
+                                                            la moda: desde ropa para dama, caballero y niños, hasta una
+                                                            amplia variedad de calzado y accesorios para complementar tu
+                                                            look. ¡Déjate sorprender por nuestra selección y encuentra
+                                                            todo lo que necesitas en un solo lugar!
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-5" aria-expanded="false"
+                                                            aria-controls="fb-5">
+                                                            <i class="fa-solid fa-bars m-1"></i> Productos
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#vn-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Ropa para dama, caballero, niños y calzado.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-2" aria-expanded="false"
+                                                            aria-controls="fb-2">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#vn-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 07:00 am a 08:00 pm.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-3" aria-expanded="false"
+                                                            aria-controls="fb-3">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#vn-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 5 N 6-19
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#fb-4" aria-expanded="false"
+                                                            aria-controls="fb-4">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="fb-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#vn-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3204101190
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Clothes shop -->
+
+    <!-- Start text 5 -->
+    <div class="container-fluid bg-2 d-flex justify-content-center align-items-center p-4">
+        <h1 class="">Toma un descanso. <i class="fa-solid fa-mug-saucer"></i></h1>
+    </div>
+    <!-- End text 5 -->
+
+    <!-- Start Coffe -->
+    <div class="container-fluid bg-7" id="coffe">
+        <div class="back2">
+            <div class="d-flex justify-content-center align-items-center flex-column p-4 text">
+                <h2 class="text-white"><i class="fa-solid fa-mug-hot"></i> Cafetería</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col d-flex justify-content-center align-items-center flex-column">
+                    <div class="card custom-card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h5 class="card-title">Café Ninco</h5>
+                        </div>
+                        <img src="./assets/images/CafeNinco1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalninco">
+                                Saber <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalninco" tabindex="-1" aria-labelledby="modalLaTorre"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content bg-secondary">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Café Ninco</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- .Carousel -->
+                                            <div id="carouselNinco" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="3000">
+                                                        <img src="./assets/images/CafeNinco3.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="carousel-item " data-bs-interval="3000">
+                                                        <img src="./assets/images/CafeNinco1.jpg" class="d-block w-100"
+                                                            alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselNinco" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselNinco" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- Accordion -->
+                                            <div class="accordion mt-2" id="n-accordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#n-1" aria-expanded="false"
+                                                            aria-controls="n-1">
+                                                            <i class="fa-regular fa-address-card m-1"></i>Sobre Nosotros
+                                                        </button>
+                                                    </h2>
+                                                    <div id="n-1" class="accordion-collapse collapse"
+                                                        data-bs-parent="#n-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <strong>Café Ninco </strong> ofrece una experiencia única
+                                                            para degustar el café. ¡Te esperamos!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#n-5" aria-expanded="false"
+                                                            aria-controls="n-5">
+                                                            <i class="fa-solid fa-bars m-1"></i> Menú
+                                                        </button>
+                                                    </h2>
+                                                    <div id="n-5" class="accordion-collapse collapse"
+                                                        data-bs-parent="#n-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            Helado, Capuccino, postres, tinto, café con leche,
+                                                            malteadas, frappuccino, tortas de café, bizcochos de achira
+                                                            y todo lo relacionado con café.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#n-2" aria-expanded="false"
+                                                            aria-controls="n-2">
+                                                            <i class="fa-solid fa-calendar-week m-1"></i>Horario de
+                                                            atención
+                                                        </button>
+                                                    </h2>
+                                                    <div id="n-2" class="accordion-collapse collapse"
+                                                        data-bs-parent="#n-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-calendar-days"></i>
+                                                            <strong>Lunes a Domingo de 8:00 am a 7:00 pm.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#n-3" aria-expanded="false"
+                                                            aria-controls="n-3">
+                                                            <i class="fa-solid fa-location-dot m-1"></i>Ubicación
+                                                        </button>
+                                                    </h2>
+                                                    <div id="n-3" class="accordion-collapse collapse"
+                                                        data-bs-parent="#n-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-map-location-dot"></i>
+                                                            Calle 4 N 134 Km 3 Vía al sur.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed bg-info-subtle"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#n-4" aria-expanded="false"
+                                                            aria-controls="n-4">
+                                                            <i class="fa-solid fa-address-book m-1"></i>Contácto
+                                                        </button>
+                                                    </h2>
+                                                    <div id="n-4" class="accordion-collapse collapse"
+                                                        data-bs-parent="#n-accordion">
+                                                        <div class="accordion-body bg-secondary">
+                                                            <i class="fa-solid fa-phone"></i> <strong>Celular</strong>/
+                                                            <i class="fa-brands fa-whatsapp"></i>
+                                                            <strong>WhatsApp:</strong> 3115800495
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Coffe -->
+
+    <!-- Start Footer -->
+    <footer class="bg-dark text-light p-4">
+        <div class="container text-center">
+            <p>Derechos reservados a Juan Pablo Toledo hasta que me paguen :-) ©.</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Botón flotante para volver arriba -->
+    <a href="#menu" class="btn-floating bg-dark" id="btnVolverArriba">
+        <i class="fas fa-arrow-up text-center ps"></i>
+    </a>
+
+    <!-- Start Scripts Bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        grity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <!-- End Scripts Bootstrap 5.3 -->
+    <!-- Start script button go up -->
+    <script src="./button.js"></script>
+    <!-- End script button go up -->
+</body>
+
+</html>

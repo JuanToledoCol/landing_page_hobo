@@ -1,0 +1,161 @@
+/* Global */
+* {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  Backgrounds */
+.bg-1 {
+    height: 80vh;
+    background-image: url("../assets/images/Portada_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -760px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg-2 {
+    background-color: #848282e3;
+    height: 150px;
+}
+
+.bg-3 {
+    height: 600px;
+    background-image: url("../assets/images/portada_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg-4 {
+    height: 600px;
+    background-image: url("../assets/images/bg_restaurant2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg-5 {
+    height: 600px;
+    background-image: url("../assets/images/bg_heladeria2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg-6 {
+    height: 600px;
+    background-image: url("../assets/images/bg_ropa2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg-7 {
+    height: 600px;
+    background-image: url("../assets/images/bg_cafetería2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* Transparent */
+.back {
+    height: 80vh;
+    opacity: 90%;
+    background-color: #00000075;
+}
+
+.back2 {
+    height: 600px;
+    background-color: #36363697;
+}
+
+/* Text */
+.text h1 {
+    font-size: 92px;
+    margin: 10px;
+}
+
+.text h2 {
+    font-size: 62px;
+    margin: 10px;
+}
+
+.text p {
+    font-size: 28px;
+    margin: 0px 0px 15px 0px;
+}
+
+/* Animations */
+/* Animatio arrow main */
+
+.arrow {
+    margin-top: 50px;
+    font-size: 3rem;
+    animation: bounce 1.5s infinite;
+    color: #fff;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(10px);
+    }
+
+    60% {
+        transform: translateY(5px);
+    }
+}
+
+/* Cards */
+.custom-card {
+    background: transparent;
+}
+
+/* Button go up */
+.btn-floating {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-floating:hover {
+    background-color: #0056b3;
+}
+
+.ps{
+    margin-top: 12px;
+}
